@@ -4,7 +4,7 @@ set ts=%DATE:~6,4%%DATE:~3,2%%DATE:~0,2%%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%
 set ts=%ts: =0%
 echo on
 
-winrar a -m5 -r test05_"%ts%" test05
+rar a -m5 -r test05_"%ts%" test05
 
 git add .\*.*
 git commit -m "%ts%"
