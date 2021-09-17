@@ -13,3 +13,5 @@ rem git add .\*.txt
 rem git status
 rem git add .\*.cdw .\*.frw .\*.kdw .\*.spw .\*.a3d .\*.t3d .\*.m3d .\*.cdt .\*.frt .\*.kdt .\*.spt .\*.a3t .\*.m3t .\*.dwg .\*.dxf
 rem git status
+
+git push origin master
